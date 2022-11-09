@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap&#39');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Franklin';
+}
+
+:root {
+  --defaulcolor: #55a2a6;
+  --defaultBlack: #151515;
+  --lightBlack: #333;
+  --darkBlack2: #111111;
+  --lightBlack2: #444444;
+  --defaultGray: #ccc;
+  --darkGray: #b2b2b2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+nav,
+main,
+footer,
+main>section,
+.about,
+.about>blockquote,
+.features a,
+.about>section>article {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  row-gap: 5vh;
+}
+
+h1,
+h3 {
+  text-transform: capitalize;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: white;
+}
+
+h3 {
+  color: var(--lightBlack2);
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width:250px) {
+  header {
+    background-image: url(/img/pexels-anthony-133184.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+
+  header>article {
+    background-color: rgba(50, 50, 50, .4);
+    height: 100%;
+    width: 100%;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+}
