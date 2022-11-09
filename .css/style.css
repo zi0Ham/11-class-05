@@ -101,6 +101,7 @@ a {
 
   summary {
     font-size: 24px;
+    border-top: 5px solid var(--defaulcolor);
   }
 
   /* header */
@@ -116,6 +117,74 @@ a {
     background-color: rgba(50, 50, 50, .4);
     height: 100%;
     width: 100%;
+  }
+
+  /* footer */
+  footer {
+    background-color: var(--defaultBlack);
+    row-gap: 5vh;
+  }
+
+  footer aside,
+  footer section,
+  footer>article,
+  footer>article>article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4vh;
+  }
+footer section, footer article{
+  padding:5%;
+}
+  footer section>aside {
+    flex-direction: row;
+    column-gap: 2vh;
+  }
+
+  aside>form {
+    padding: 2%;
+    display: flex;
+  }
+
+  input {
+    padding: 2%;
+    border: none;
+    background-color: var(--lightBlack);
+  }
+
+  [type="email"] {
+    background-color: var(--lightBlack);
+  }
+
+  input,
+  input::placeholder {
+    color: var(--defaultGray);
+  }
+
+  footer > section{
+background-color: ;
+  }
+
+  footer a {
+    font-size: 18px;
+    color: var(--defaultGray);
+    border-radius: 50%;
+    border: 2px solid var(--defaultGray);
+    text-align: center;
+    height: 4vh;
+    width: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer h3 {
+    text-transform: uppercase;
+    color: var(--defaultGray);
+  }
+
+  footer p {
+    color: var(---darkGray);
   }
 
   /* features */
