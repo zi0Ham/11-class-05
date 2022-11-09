@@ -1,0 +1,260 @@
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git cheat seet.txt
+        git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (main)
+$ git add index.html
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git cheat seet.txt
+        git.txt
+
+
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 699 bytes | 699.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/zi0Ham/11-class-05.git
+   3633f91..3e5626b  main -> main
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (main)
+$ git checkout -b 'mobile'
+Switched to a new branch 'mobile'
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .css/
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git add index.html
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git style.css
+git: 'style.css' is not a git command. See 'git --help'.
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .css/
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git .css/style.css
+git: '.css/style.css' is not a git command. See 'git --help'.
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .css/
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git .css/
+git: '.css/' is not a git command. See 'git --help'.
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .css/
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git add .css/
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .css/style.css
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git commit -m "Mobile: features css is done"
+[mobile e3ba432] Mobile: features css is done
+ 2 files changed, 87 insertions(+), 2 deletions(-)
+ create mode 100644 .css/style.css
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git push -origin mobile
+fatal: 'mobile' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git push origin mobile
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.01 KiB | 1.01 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/zi0Ham/11-class-05.git
+ * [new branch]      mobile -> mobile
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .css/style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git commit -m "Mobile: Humburger menu is done"
+On branch mobile
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .css/style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git push origin mobile
+Everything up-to-date
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .css/style.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        git cheat seet.txt
+        git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+11-8 1교시
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git add .
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git commit -m "Mobile: Nacigation"
+[mobile eb7d5d6] Mobile: Nacigation
+ 4 files changed, 451 insertions(+), 1 deletion(-)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 git cheat seet.txt
+ create mode 100644 git.txt
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$ git push origin mobile
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 3.48 KiB | 1.16 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/zi0Ham/11-class-05.git
+   e3ba432..eb7d5d6  mobile -> mobile
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/Tamwood/11월/Class-16 (mobile)
+$

@@ -166,16 +166,68 @@ a {
     font-weight: 500;
   }
 
+  /* about */
+  .about {
+    padding: 5%;
+    row-gap: 5vh;
+  }
 
+  .about>article {
+    display: flex;
+    column-gap: 1vh;
+    align-items: center;
+  }
 
+  .about aside {
+    display: flex;
+    width: 30%;
+    border: 2px solid var(--defaultGray);
+    height: 1vh;
+    background-color: var(--defaultGray);
+  }
 
+  .about section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+  }
 
+  .about section article {
+    row-gap: 3vh;
+  }
 
+  .about p {
+    line-height: 1.5;
+    color: var(--defaultGray);
+    font-size: 14px;
+  }
 
+  .about a {
+    width: 30%;
+    background-color: var(--defaulcolor);
+    text-align: center;
+    color: white;
+    padding: 1%;
+  }
 
+  .about blockquote {
+    border-left: 3px solid var(--defaulcolor);
+    padding: 3%;
+    row-gap: 3vh;
+  }
 
+  .about q {
+    padding-left: 5%;
+    line-height: 1.5;
+    font-style: italic;
+    font-size: 12px;
+    color: var(--lightBlack);
+  }
 
-
-
+  .about cite {
+    color: var(--defaulcolor);
+    text-transform: uppercase;
+    padding-left: 5%;
+  }
 
 }
