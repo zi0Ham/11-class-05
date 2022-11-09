@@ -1,0 +1,11 @@
+git init : 업로드할 로컬 소스 최상위 폴더에 git 초기화
+git config --global user.name "사용자이름" : 사용자 이름 등록
+git config --global user.email "사용자 이메일" : 사용자 메일 등록
+git checkout -b <branchName> : branchName을 생성하고 해당 브런치로 이동
+git branch -M main : 기본 브랜치를 main브랜치로 지정 (-M:Message)
+git status : 폴더 확인
+git remote add origin <https://github.com/zi0Ham/11-class-05.git> : github 저장소 원격 연결
+git add fileName : 파일을 staging area에 추가 / fileName:indxt.html
+git commit -m "message" : commit하고 commit에 대한 간단한 메세지 작성
+git push origin main : 파일 push 하기
+
