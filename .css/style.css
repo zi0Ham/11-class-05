@@ -473,3 +473,9 @@ a {
     padding-left: 1%;
   }
 }
+
+@media (min-width:1000px) {
+  header {
+    height: 60vh;
+  }
+}
