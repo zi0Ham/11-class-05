@@ -319,4 +319,44 @@ a {
   }
   
   
+
+  /* about */
+  .about {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .about aside {
+    width: 40%;
+  }
+
+  .about>article {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .about section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vh;
+  }
+
+  .about>section>article {
+    row-gap: 2vh;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .about a {
+    width: 45%;
+    padding: 2%;
+  }
+
+  .about>blockquote,
+  .about q,
+  .about cite {
+    padding-left: 1%;
+  }
 }
