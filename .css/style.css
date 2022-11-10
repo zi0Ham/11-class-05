@@ -490,6 +490,48 @@ a {
     align-items: center;
   }
 
+  /* features */
+  .features {
+    padding-top: 2vh;
+    row-gap: 0;
+  }
+
+  .features blockquote {
+    padding-top: 2%;
+  }
+
+  .features article {
+    width: 70%;
+  }
+
+  .features a {
+    padding: 2%;
+    height: 30vh;
+    justify-content: space-evenly;
+  }
+
+  .features i {
+    font-size: 60px;
+  }
+
+  .features a:hover {
+    background-color: var(--darkBlack2);
+    transition: .3s;
+  }
+
+  .features a:hover>i {
+    color: var(--defaultGray);
+  }
+
+  .features a:hover>h3 {
+    color: var(--defaulcolor);
+  }
+
+  .features a:hover p {
+    color: var(--darkGray);
+  }
+
+
 
 
 
