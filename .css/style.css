@@ -531,7 +531,21 @@ a {
     color: var(--darkGray);
   }
 
+  /* about */
+  .about {
+    padding-top: 2vh;
+    align-items: center;
+  }
 
+  .about blockquote,
+  .about>article,
+  .abput>section {
+    width: 80%;
+  }
+
+  .about>blockquote {
+    box-sizing: border-box;
+  }
 
 
 
