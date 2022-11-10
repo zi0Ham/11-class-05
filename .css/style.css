@@ -490,6 +490,32 @@ a {
     align-items: center;
   }
 
+  /* footer */
+  footer {
+    align-items: center;
+  }
+
+  footer>article {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76%;
+    padding: 2%;
+  }
+
+  footer section {
+    width: 100;
+  }
+
+  footer>section {
+    width: 76%;
+    padding-left: 12%;
+    padding-right: 12%;
+    justify-content: space-between;
+  }
+
+
+
+
   /* features */
   .features {
     padding-top: 2vh;
