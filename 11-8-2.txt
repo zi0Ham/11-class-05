@@ -1,0 +1,183 @@
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-8.txt
+
+nothing added to commit but untracked files present (use "git add" to track)       
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git remote add origin <https://github.com/zi0Ham/11-class-05.git>
+bash: syntax error near unexpected token `newline'
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-8.txt
+
+nothing added to commit but untracked files present (use "git add" to track)       
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git add index.html
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git commit -m "Mail: Footer is done"
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-8.txt
+
+nothing added to commit but untracked files present (use "git add" to track)       
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git checkout -b 'main'
+fatal: a branch named 'main' already exists
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git push origin mobile
+Everything up-to-date
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git add .css/
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git commit -m "Mobile: Header is done"
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)       
+        11-8.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ gi tpush origin mobile
+bash: gi: command not found
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git push origin mobile
+Everything up-to-date
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-8.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .css/style.css
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-8.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git commit -m "Mobile: About is done"
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .css/style.css
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        11-8.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git push origin mobile
+Everything up-to-date
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git add .
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git commit -m "Mobile: About is done"
+[mobile 1ff89bc] Mobile: About is done
+ 3 files changed, 315 insertions(+), 3 deletions(-)
+ create mode 100644 11-8.txt
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git push origin mobile
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.99 KiB | 1016.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/zi0Ham/11-class-05.git
+   eb7d5d6..1ff89bc  mobile -> mobile
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git status
+On branch mobile
+Your branch is up to date with 'origin/mobile'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git add .
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git commit -m "Mobile: footer is done"
+[mobile fa88e05] Mobile: footer is done
+ 1 file changed, 69 insertions(+)
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git push origin mobile
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 763 bytes | 763.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/zi0Ham/11-class-05.git
+   1ff89bc..fa88e05  mobile -> mobile
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Class-16 (mobile)
+$ git checkout -b tablet
+Switched to a new branch 'tablet'
+
+단무지영@DESKTOP-5IF6FK6 MINGW64 ~/Desktop/탐우드/11월/Cla

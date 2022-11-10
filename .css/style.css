@@ -133,10 +133,21 @@ a {
     flex-direction: column;
     row-gap: 4vh;
   }
-footer section, footer article{
-  padding:5%;
-}
-  footer section>aside {
+
+  footer>article>aside {
+    padding: 5%;
+  }
+
+  footer>article>article {
+    color: var(--darkGray);
+  }
+
+  footer section,
+  footer article {
+    padding: 5%;
+  }
+
+  footer section aside {
     flex-direction: row;
     column-gap: 2vh;
   }
@@ -161,10 +172,6 @@ footer section, footer article{
     color: var(--defaultGray);
   }
 
-  footer > section{
-background-color: ;
-  }
-
   footer a {
     font-size: 18px;
     color: var(--defaultGray);
@@ -185,6 +192,10 @@ background-color: ;
 
   footer p {
     color: var(---darkGray);
+  }
+
+  footer>section>p {
+    color: var(--defaultGray);
   }
 
   /* features */
@@ -298,5 +309,14 @@ background-color: ;
     text-transform: uppercase;
     padding-left: 5%;
   }
+}
 
+@media (min-width: 650px) {
+
+  
+  header {
+    height: 45vh;
+  }
+  
+  
 }
